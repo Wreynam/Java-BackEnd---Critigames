@@ -1,0 +1,244 @@
+.container-tittleNo{
+    width: max(300px, 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo .tittle{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: min(50px, 10vh);
+}
+.container-tittleNo .subtittle{
+    margin-top: -10px;
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: max(20px, 2vw);
+}
+
+.container-itens{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max(300px, 30%);
+}
+.container-itens>img{
+    width: max(30px, 20%);
+}
+.container-itens>a{
+    font-family: 'Karantina';
+    font-size: min(30px, 5vh);
+}
+.container-itens>a:hover{
+    font-size: 5vh;
+    border-top: 2px solid red;
+    color: white;
+}
+.banner{
+    margin-top: 30px;
+    width: max(350px, 70%);
+  
+}
+.banner>p{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: max(2.5vw, 2.5vh);
+    font-style: 'Jacques Francois';
+}
+.banner-buttons button{
+    margin-top: 45%;
+}
+
+.all-details{
+    margin-top: 100px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-criticas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: max(70%, 300px);
+}
+.critic-score{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.critic-score h1{
+    font-family: 'Inika';
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.box-critigames{
+    background: #33FF00;
+    border-radius: 20px;
+    width: max(15vh, 10vw);
+    height: max(15vh, 10vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.critic-score p{
+    font-family: 'Inika';
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+
+.icon-image img{
+    width:  max(20vh, 15vw);
+}
+
+.comunity-score{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comunity-score h1{
+    font-family: 'Inika';
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.box-comunity{
+    width: max(15vh, 10vw);
+    height: max(15vh, 10vw);
+    background: orange;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comunity-score p{
+    font-family: 'Inika';
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+
+.details{
+    width: max(30%, 250px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details h1{
+    font-family: 'Inika';
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.details>p{
+    margin-top: 5%;
+    font-family: 'Inika';
+    font-style: normal;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.resume{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+.iframe{
+    margin-top: 20px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.iframe>iframe{
+    width: max(59vw, 35vh);
+    height: max(30vw, 30vh);
+    border-radius: 15px;
+}
+
+.iframe h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    margin-bottom: 10px; 
+}
+.critics{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.critics h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    margin: 10px; 
+}
+
+.critics p{
+    font-family: 'inika';
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.div-critics{
+   text-align: justify; 
+}
+
+.resume h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    margin-bottom: 10px; 
+}
+.resume p{
+    font-family: 'inika';
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media (max-width: 800px) {
+    .all-details{
+        margin-top: 40px;
+    }
+    .box-criticas{
+        justify-content: center;
+    }
+    .resume h1{
+        font-size: 2rem;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        background-image: none;
+        width: 0px;
+    }
+}

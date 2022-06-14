@@ -1,0 +1,14 @@
+.containerDeItens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    min-height: 400px;
+}
+.containerDeItens a{
+    margin: 20px;
+}
