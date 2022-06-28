@@ -34,7 +34,7 @@
 				</form>
 				<div class="container-tittleNo">
 					<p class="tittle">CRITIGAMES</p>
-					<p class="subtittle">Criticas e n�o ofensas</p>
+					<p class="subtittle">Criticas e não ofensas</p>
 				</div>
 				<div class="login-register">
 					<c:if test="${empty usuarioLogado}">
@@ -101,7 +101,7 @@
 				</div>
 				<div class="noticiagames">
 					<div class="textnews">
-						<p>zelda bucetudo: a vingança</p>
+						<p>zelda bucetudo: a vinganÃ§a</p>
 						<h1>07|Jun</h1>
 					</div>
 				</div>
@@ -119,7 +119,7 @@
 				</div>
 				<div class="noticiagames">
 					<div class="textnews">
-						<p>Jesus humilha satanás: e satanás gosta</p>
+						<p>Jesus humilha satanÃ¡s: e satanÃ¡s gosta</p>
 						<h1>21|Jun</h1>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 							<path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 						</div>
 						<div>
-							<p>N°1 Rua 25 de março</p>
+							<p>NÂ°1 Rua 25 de marÃ§o</p>
 							<p>Caraguatatuba, Brasil</p>
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 		   <div class="footer-mediumright">
 				<div class="footer-medium">
 					<h1>About the company</h1>
-					<p class="text-break">Os tempos de bandidagem e foras da lei está acabando e o espaço para guangues como a de Dutch Van Der Linde também. Seja um cowboy fora da lei no oeste selvagem.</p>
+					<p class="text-break">Os tempos de bandidagem e foras da lei estÃ¡ acabando e o espaÃ§o para guangues como a de Dutch Van Der Linde tambÃ©m. Seja um cowboy fora da lei no oeste selvagem.</p>
 				</div>
 				<div class="footer-right">
 					<div class="icons-media">
