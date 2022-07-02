@@ -1,0 +1,300 @@
+
+.titulonoticia{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin-top: 4vw;
+    margin-bottom: 5%;
+    font-family: 'karantina';
+}
+.titulonoticia h1{
+    font-family: 'karantina';
+    font-size: 500%;
+}
+.titulonoticia h2{
+    color: white;
+    font-size: 300%;
+}
+.titulonoticia h3{
+    color: white;
+    font-size: 120%;
+}
+
+.imgnoticia{
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: auto;
+    margin-top: 2vw;
+}
+.imgnoticia img{
+    width: 100%;
+    border-radius: 20px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin-top: 1vw;
+    font-family: 'karantina';
+    
+}
+
+article p{
+    font-size: 250%;
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: auto;
+    margin-top: 4vw;
+    margin-bottom: 5%;
+}
+.noticias h1{
+    margin-top: 10%;
+    margin-right: 30vw;
+    font-size: 350%;
+    font-family: 'karantina';
+}
+.noticias p{
+    text-align: end;
+    font-size: 180%;
+    font-family: 'karantina';
+}
+.noticias a{
+    margin-left: 20px;
+}
+.noticiagames{
+    display: flex;
+    background-size: cover;
+    background-image: url("../img/BackgroundNews.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 200px;
+    height: 259px;
+}
+.noticiagames h1{
+    color: black;
+    font-family: 'karantina';
+    font-size: 450%;
+    margin-left: 30%;
+    height: 50%;
+
+    
+}
+.noticiagames p{
+    color: black;
+    font-family: 'karantina';
+    font-size: 200%;
+}
+.textdata{
+    width: 200px;
+    height: 50%;
+    margin-top: 50%;
+
+}
+.textnews{
+    width: 200px;
+    height: auto;
+    margin-top: 5%;
+}
+.textnews p{
+    width: 100%;
+}
+.textnews h1{
+    margin-top: 15%;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.games h1{
+    font-size: 350%;
+    font-family: 'karantina';
+}
+.games p{
+    opacity: 60%;
+    width: 27.4vw;
+    height: 15rem;
+    position: absolute;
+    float: left;
+    padding-left: 20px;
+    font-size: 350%;
+    font-family: 'karantina';
+    z-index: 10;
+}
+.games p:hover{
+    opacity: 100%;
+}
+.news{
+	margin-right: 20px;
+    display: flex;
+    width: 27.4vw;
+    height: 15rem;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*.games a{
+    margin-left: 20px;
+}
+*/
+.iframe{
+    margin-top: 50px;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/*.history p{
+    font-family: 'inika';
+}*/
+.iframe>iframe{
+    width: max(59vw, 35vh);
+    height: max(30vw, 30vh);
+    border-radius: 15px;
+}
+/*.critics{
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}*/
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-information{
+    width: max(40%, 40vh);
+    display: flex;
+    justify-content: center;
+    
+}
+/*.especifications{
+    margin-top: 40px;
+    width: max(60%, 30vh);
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.div-critics{
+    width: max(60%, 50vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.games h1{
+    
+}
+
+/*.card-team{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
+.sclick-carrousel{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}/*
+.sclick-carrousel img{
+    width: 140px;
+    height: 140px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+*/
+@media (max-width: 500px) {
+    .titulonoticia h1{
+    font-size: 200%;
+    font-family: 'karantina';
+}
+
+}
+
+@media (max-width: 500px) {
+    .titulonoticia h2{
+    font-size: 150%;
+    font-family: 'karantina';
+}
+
+}
+
+@media (max-width: 500px) {
+    .titulonoticia h3{
+    font-size: 80%;
+    font-family: 'karantina';
+}
+
+}
+
+@media (max-width: 500px) {
+    article p{
+    font-size: 125%;
+}
+
+}
+
+@media (max-width: 500px) {
+    .noticias h1{
+    font-size: 225%;
+}
+
+}
+
+@media (max-width: 500px) {
+    .games h1{
+    font-size: 225%;
+}
+
+}
+
+@media (max-width: 500px) {
+    .news{
+    width: 70vw;
+    height: 12rem;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .news{
+    width: 40vw;
+    height: 14rem;
+}
+
+}
+
+@media (max-width: 830px) {
+    .games p{
+   font-size: 200%;
+}
+
+}

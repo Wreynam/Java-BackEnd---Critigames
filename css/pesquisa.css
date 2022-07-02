@@ -1,0 +1,155 @@
+
+.resultado{
+	margin-top: 20px;
+	width: 90%;
+	min-height: 470px;
+}
+.resultado h1{
+	font-size: 350%;
+    font-family: 'karantina';
+}
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 55px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10px;
+    float: right;
+}
+.score p{
+    font-size: 280%;
+    font-family: 'karantina';
+}
+.containerDeItens{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.containerDeItens a{
+	margin: 15px 15px 15px 15px;
+   
+}
+@media (max-width: 500px) {
+    .containerDeItens{
+    justify-content: center; 
+    }
+
+}
+
+.noticiasGeral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    
+  
+}
+.noticiasGeral h1{
+	
+    font-size: 350%;
+    font-family: 'karantina';
+}
+.noticiasGeral p{
+    opacity: 60%;
+    width: 27.4vw;
+    height: 15rem;
+    position: absolute;
+    float: left;
+    padding-left: 20px;
+    font-size: 350%;
+    font-family: 'karantina';
+    z-index: 10;
+}
+.noticiasGeral p:hover{
+    opacity: 100%;
+}
+.news{
+	margin-right: 20px;
+    display: flex;
+    width: 27.4vw;
+    height: 15rem;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: auto;
+}
+.noticias h1{
+    font-size: 350%;
+    font-family: 'karantina';
+}
+.noticias p{
+    text-align: end;
+    font-size: 180%;
+    font-family: 'karantina';
+}
+.noticias a{
+    margin-left: 20px;
+    width: 200px;
+    height: 259px;
+}
+.noticiagames{
+    display: flex;
+    background-image: url('../img/BackgroundNews.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.noticiagames h1{
+    color: black;
+    font-family: 'karantina';
+    font-size: 450%;
+    margin-left: 30%;
+
+    
+}
+.noticiagames p{
+    color: black;
+    font-family: 'karantina';
+    font-size: 200%;
+}
+.textnews{
+    width: 200px;
+    height: auto;
+    margin-top: 5%;
+}
+.textnews p{
+	margin-left: 10px;
+}
+.textnews h1{
+    margin-top: 15%;
+}
+@media (max-width: 500px) {
+    .news{
+    width: 70vw;
+    height: 12rem;
+}
+
+}
+@media (min-width: 500px) and (max-width: 900px) {
+    .news{
+    width: 40vw;
+    height: 14rem;
+}
+
+}
+@media (max-width: 830px) {
+    .noticiasGeral p{
+   font-size: 200%;
+}
+
+}

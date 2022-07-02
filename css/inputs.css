@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    margin-bottom: 20px;
+    color: black;
+    font-size: larger;
+}
+.formulario{
+    color: white;
+    width: 600px;
+}
+.formulario input{
+    color: black;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.formulario .caixa{
+	
+	height: auto;
+    overflow: auto;
+    
+}
+.formulario button{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    
+}
+
